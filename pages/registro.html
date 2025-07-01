@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login / Registro</title>
+  <link rel="stylesheet" href="../css/registro.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="form-container login">
+      <form>
+        <h2>Iniciar Sesión</h2>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" placeholder="ejemplo@oasis.com" required />
+        
+        <label for="password">Contraseña</label>
+        <div class="password-container">
+          <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
+          <span class="eye-icon">👁️</span>
+        </div>
+
+        <a href="#" class="forgot">¿Olvidaste tu contraseña?</a>
+        <button type="submit" class="btn-login">INICIAR SESIÓN</button>
+      </form>
+    </div>
+
+    <div class="side-panel register">
+      <h3>¿No tienes cuenta?</h3>
+      <p>Regístrate y disfruta de nuestros servicios.</p>
+      <a href="#"><button class="btn-outline">REGISTRARSE</button></a>
+    </div>
+  </div>
+
+  <div class="container hidden">
+    <div class="side-panel login-again">
+      <h3>¿Ya tienes cuenta?</h3>
+      <p>Inicia sesión y disfruta de nuestros servicios.</p>
+      <a href="#"><button class="btn-outline">INICIAR SESIÓN</button></a>
+    </div>
+
+    <div class="form-container register-form">
+      <form>
+        <h2>Crear Cuenta</h2>
+        <label for="name">Nombre Completo</label>
+        <input type="text" id="name" placeholder="Ej: Oasis Hotel" required />
+        
+        <label for="reg-email">Correo Electrónico</label>
+        <input type="email" id="reg-email" placeholder="Ej: ejemplo@oasis.com" required />
+        
+        <label for="phone">Número de Teléfono</label>
+        <input type="text" id="phone" placeholder="Ej: 5422255" required />
+        
+        <label for="reg-password">Contraseña (6 caracteres)</label>
+        <div class="password-container">
+          <input type="password" id="reg-password" placeholder="Ingresa tu contraseña" required />
+          <span class="eye-icon">👁️</span>
+        </div>
+
+        <label class="terms">
+          <input type="checkbox" required /> Aceptas nuestros Términos de Uso.
+        </label>
+
+        <button type="submit" class="btn-login">CREAR CUENTA</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
