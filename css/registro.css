@@ -9,13 +9,15 @@ body {
   min-height: 100vh;
   background: url('img/fondo.jpg') center/cover no-repeat;
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 2rem;
+  flex-direction: column;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
+header{
+  width: 100%;
+}
 .container {
   display: flex;
   width: 800px;
@@ -24,6 +26,7 @@ body {
   border-radius: 15px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: auto 0;
 }
 
 .form-container, .side-panel {
