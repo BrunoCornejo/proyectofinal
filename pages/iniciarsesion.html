@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iniciarsesion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" height="30dvh" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 NavLinks">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">PRODUCTOS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">SUCURSALES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input id="Buscar" class="form-control inputbuscar" type="search" placeholder="Buscar" />
+                        <button class="btn botonesnav" type="submit"><img
+                                src="https://img.icons8.com/?size=100&id=131&format=png&color=FFFFFF" width="20dvh"
+                                alt="carrito de compras"></button>
+                    </form>
+                    <a href="" class="botonesnav">ACCEDER</a>
+                    <a href="" class="botonesnav"><img
+                            src="https://img.icons8.com/?size=100&id=59997&format=png&color=FFFFFF" width="20dvh"
+                            alt="carrito de compras"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="form-container login">
+            <form>
+                <h2>Iniciar Sesión</h2>
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" placeholder="ejemplo@oasis.com" required />
+
+                <label for="password">Contraseña</label>
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
+                    <span class="eye-icon">👁️</span>
+                </div>
+
+                <a href="#" class="forgot">¿Olvidaste tu contraseña?</a>
+                <button type="submit" class="btn-login">INICIAR SESIÓN</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
