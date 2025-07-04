@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url('img/fondo.jpg') center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+header{
+  width: 100%;
+}
+.container {
+  display: flex;
+  width: 800px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: auto 0;
+}
+
+.form-container, .side-panel {
+  width: 100%;
+  padding: 2rem;
+  background: white;
+}
+
+.side-panel {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login .side-panel {
+  background: linear-gradient(to right, #0f9b8e, #195aa5);
+}
+
+.hidden .side-panel {
+  background: linear-gradient(to right, #C18553, #895637);
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #222;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-top: 1rem;
+  color: #333;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: .5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: #f4f4f4;
+}
+
+.password-container {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.forgot {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 13px;
+  color: #666;
+  text-decoration: none;
+}
+
+.btn-login {
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #d4a97e;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  width: 100%;
+}
+
+.btn-outline {
+  padding: 10px 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.terms {
+  margin-top: 1rem;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
