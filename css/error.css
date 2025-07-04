@@ -1,0 +1,37 @@
+.fuentetexto {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fuentetitulos {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.error {
+  background-image: url(../img/error404.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100dvh;
+}
+.boton input[type="submit"] {
+  background-color: #c18553;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+.boton input[type="submit"]:hover {
+  background-color: #895637;
+}
+.boton {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
