@@ -13,3 +13,7 @@ body {
     flex: 1;
     
 }
+.boton{
+    background-color: rgb(63, 114, 63);
+    color: #F3E9DD;
+}
