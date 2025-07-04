@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="fuentetexto">
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Contacto</h6>
+        <section>
+          <form class="formulario">
+            <label for="nombre">Nombre y Apellido</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej: Jorge Perez"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <span>El nombre y apellido es obligatorio</span>
+
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ej: jorgeperez@gmail.com"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <span>El e-mail es obligatorio</span>
+
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej: 3812356479"
+              required
+              minlength="10"
+              maxlength="10"
+            />
+            <span>El teléfono es obligatorio</span>
+
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Ingrese su consulta"
+              required
+            ></textarea>
+            <section class="boton">
+              <input type="submit" value="Enviar" />
+            </section>
+          </form>
+        </section>
+      </div>
+
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Ubicación</h6>
+        <section class="ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1222895833585!2d-65.2094923247784!3d-26.83606247669291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef228d361%3A0x34b3103d48727d5c!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20567%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1sen!2sar!4v1751581725163!5m2!1sen!2sar"
+            class="my-5"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
