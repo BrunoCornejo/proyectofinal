@@ -1,0 +1,93 @@
+/* link tipografias (google fonts) */
+.fuentetexto {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fuentetitulos {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#F3E9DD ;
+}
+.NavLinks a {
+    color: #C18553;
+}
+.inputbuscar {
+  padding: 1.5vh;
+  margin: 1vh;
+  border-radius: 1vh;
+  border: none;
+}
+.botonesnav {
+    text-decoration: none;
+    color:#F3E9DD ;
+    background-color: #C18553 ;
+    padding: 1.5dvh;
+    margin: 1dvh;
+    border-radius: 1dvh;
+}
+.botonesnav:hover {
+    color:#C18553 ;
+    background-color:#F3E9DD;
+    border: 2px solid #C18553;
+}
+
+/* Detalle de producto */
+.Titulo {
+    color: #C18553;
+    font-size: 7dvh;
+
+}
+.detalleprod { 
+    margin: 2dvh;   
+    padding: 2dvh;
+}
+.botonComprar {
+    text-decoration: none;
+    padding: 2dvh 15dvh 2dvh 15dvh;
+    background-color: #C18553;
+    border-radius: 2dvh;
+    color: #F3E9DD;
+}
+.botonComprar:hover {
+    border: 2px solid #C18553;
+    background-color: #F3E9DD;
+    color: #C18553;
+}
+.botonvolver {
+    text-decoration: none;
+    width: 40%;
+    padding: 2dvh;
+    background-color: #C18553;
+    border-radius: 2dvh;
+    color: #F3E9DD;
+}
+.botonvolver:hover {
+    border: 2px solid #C18553;
+    background-color: #F3E9DD;
+    color: #C18553;
+}
+/* TESTIMONIOS */
+.section-title {
+      text-align: center;
+      margin-bottom: 5dvh;
+      color: #C18553;
+}
+.testimonio-card {
+    background: #F3E9DD;
+    border: none;
+    box-shadow: 0 4px 15px #895637;
+    transition: transform 0.3s;
+    border-radius: 15px;
+}
+.testimonio-card:hover {
+    transform: translateY(-5px);
+}
