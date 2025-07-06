@@ -1,4 +1,4 @@
-/* link tipografias (google fonts) */
+/* TIPOGRAFIAS (GOOGLE FONTS) */
 .fuentetexto {
   font-family: "Huninn", sans-serif;
   font-weight: 400;
@@ -9,16 +9,18 @@
   font-weight: 400;
   font-style: normal;
 }
+/* RESET CSS */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-nav {
-  background-color: #f3e9dd;
+/* NAVBAR */
+nav{
+  background-color:#F3E9DD ;
 }
 .NavLinks a {
-  color: #c18553;
+  color: #C18553;
 }
 .inputbuscar {
   padding: 1.5vh;
@@ -28,22 +30,17 @@ nav {
 }
 .botonesnav {
   text-decoration: none;
-  color: #f3e9dd;
-  background-color: #c18553;
+  color:#F3E9DD ;
+  background-color: #C18553 ;
   padding: 1.5dvh;
   margin: 1dvh;
   border-radius: 1dvh;
 }
-.botonesnav :hover {
-  text-decoration: none;
-  color: #c18553;
-  background-color: #f3e9dd;
-  padding: 1.5dvh;
-  margin: 1dvh;
-  border: 5px, solid, #c18553;
-  border-radius: 1dvh;
+.botonesnav:hover {
+  color:#C18553 ;
+  background-color:#F3E9DD;
+  border: 2px solid #C18553;
 }
-
 /* CATEGORIAS */
 .categorias {
   background-color: #fff5ee;
@@ -102,7 +99,6 @@ nav {
 .itemGrid:hover {
   transform: scale(1.1);
 }
-
 .item1 {
   grid-column: 1/2;
   grid-row: 1/3;
