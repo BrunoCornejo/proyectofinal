@@ -16,11 +16,11 @@
   box-sizing: border-box;
 }
 /* NAVBAR */
-nav{
-  background-color:#F3E9DD ;
+nav {
+  background-color: #f3e9dd;
 }
 .NavLinks a {
-  color: #C18553;
+  color: #c18553;
 }
 .inputbuscar {
   padding: 1.5vh;
@@ -30,16 +30,16 @@ nav{
 }
 .botonesnav {
   text-decoration: none;
-  color:#F3E9DD ;
-  background-color: #C18553 ;
+  color: #f3e9dd;
+  background-color: #c18553;
   padding: 1.5dvh;
   margin: 1dvh;
   border-radius: 1dvh;
 }
 .botonesnav:hover {
-  color:#C18553 ;
-  background-color:#F3E9DD;
-  border: 2px solid #C18553;
+  color: #c18553;
+  background-color: #f3e9dd;
+  border: 2px solid #c18553;
 }
 /* CATEGORIAS */
 .categorias {
@@ -72,6 +72,25 @@ nav{
 .productosDestacados h5 {
   color: #895637;
 }
+
+/* MENSAJE */
+.mensaje {
+  background-color: #fff5ee;
+  height: 70dvh;
+  width: 100dvw;
+}
+.mensaje h1 {
+  color: #895637;
+  text-align: center;
+  padding: 75px;
+  font-size: 70px;
+}
+.mensaje p {
+  color: #895637;
+  text-align: center;
+  font-size: 50px;
+}
+
 /* GALERIA DE IMAGENES */
 .seccionGaleria {
   padding: 30px 100px;
