@@ -14,6 +14,11 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 100dvh;
+  width: 100dvw;
+}
+.error h4 {
+  color: #895637;
+  text-align: center;
 }
 .boton input[type="submit"] {
   background-color: #c18553;
