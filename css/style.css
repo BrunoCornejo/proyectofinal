@@ -59,10 +59,6 @@ nav {
 }
 
 /* PRODUCTOS DESTACADOS */
-.alturaDestacados {
-  height: 50dvh;
-  width: 40dvw;
-}
 .productosDestacados {
   background-color: #fff5ee;
 }
