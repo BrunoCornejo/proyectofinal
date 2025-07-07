@@ -16,9 +16,10 @@
   height: 100dvh;
   width: 100dvw;
 }
-.error h4 {
+.error h2 {
   color: #895637;
   text-align: center;
+  margin-top: 100px;
 }
 .boton input[type="submit"] {
   background-color: #c18553;
@@ -35,8 +36,10 @@
 }
 .boton {
   width: 100vw;
-  height: 100vh;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: end;
+  margin-bottom: 120px;
+  
 }
