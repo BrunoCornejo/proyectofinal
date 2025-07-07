@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <!-- FUENTES GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap" rel="stylesheet">
-    <title>Iniciar Sesion</title>
-</head>
-
-<body>
+    <title>Contacto</title>
+  </head>
+  <body class="fuentetexto">
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -81,28 +79,83 @@
         </div>
       </nav>
     </header>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Contacto</h6>
+        <section>
+          <form class="formulario">
+            <label for="nombre">Nombre y Apellido</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej: Jorge Perez"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <span>El nombre y apellido es obligatorio</span>
 
-    <div class="container">
-        <div class="form-container login">
-            <form>
-                <h2>Iniciar Sesión</h2>
-                <label for="email">Correo Electrónico</label>
-                <input type="email" id="email" placeholder="ejemplo.cornejobruno11@gmail.com" required />
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ej: jorgeperez@gmail.com"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+            <span>El e-mail es obligatorio</span>
 
-                <label for="password">Contraseña</label>
-                <div class="password-container">
-                    <input type="password" id="password" placeholder="Ingresa tu contraseña" required />
-                    <span class="eye-icon">👁️</span>
-                </div>
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej: 3812356479"
+              required
+              minlength="10"
+              maxlength="10"
+            />
+            <span>El teléfono es obligatorio</span>
 
-                <a href="#" class="forgot">¿Olvidaste tu contraseña?</a>
-                <button type="submit" class="btn-login">INICIAR SESIÓN</button>
-            </form>
-        </div>
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Ingrese su consulta"
+              required
+            ></textarea>
+            <section class="boton">
+              <input type="submit" value="Enviar" />
+            </section>
+          </form>
+        </section>
+      </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-            crossorigin="anonymous"></script>
-</body>
-
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Ubicación</h6>
+        <section class="ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1222895833585!2d-65.2094923247784!3d-26.83606247669291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef228d361%3A0x34b3103d48727d5c!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20567%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1sen!2sar!4v1751581725163!5m2!1sen!2sar"
+            class="my-5"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
+    </div>
+    
+    <!-- SCRIPT DE BOOSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

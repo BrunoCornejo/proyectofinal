@@ -1,0 +1,20 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #F3E9DD;
+}
+
+.carrito {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    
+}
+.boton{
+    background-color: rgb(63, 114, 63);
+    color: #F3E9DD;
+}
+

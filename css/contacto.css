@@ -1,0 +1,76 @@
+.fuentetexto {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fuentetitulos {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body.fuentetexto{
+  background: #f3e9dd;
+}
+body h6 {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 10dvh;
+  margin: auto;
+  color: #895637;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3e9dd;
+}
+.formulario {
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 360px;
+  width: 100%;
+}
+.formulario label {
+  display: block;
+  margin-bottom: 5px;
+}
+.formulario span {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 8px;
+}
+.formulario input,
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #c18553;
+  border-radius: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.formulario input:focus{
+  outline: 1px solid #895637;
+}
+.formulario textarea {
+  resize: vertical;
+  height: 80px;
+}
+.formulario input[type="submit"] {
+  background-color: #c18553;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 70px;
+  height: 50px;
+}
+.formulario input[type="submit"]:focus{outline: 1px solid #895637;}
+.formulario input[type="submit"]:hover {
+  background-color: #895637;
+}
+.boton {
+  justify-content: center;
+}

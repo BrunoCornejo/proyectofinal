@@ -1,21 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap"
-      rel="stylesheet"
-    />
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BOOSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FUENTES GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap" rel="stylesheet">
     <title>Moka</title>
   </head>
   <body class="fuentetexto">
@@ -124,35 +120,98 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        </div>
+    </main>   
+
+<!-- CATEGORIAS -->
+ <section class="text-center p-5 categorias fuentetexto">
+        <h2 class="fuentetitulos">Categorías</h2>
+        <div class="row row-cols-md-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
+          <div class="col">
+            <div class="card border tarjetaCategoria">
+              <a href="./pages/panaderia.html" target="_blank" class="nav-link p-5">PANADERIA</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border tarjetaCategoria">
+              <a href="./pages/pasteleria.html" target="_blank" class="nav-link p-5">PASTELERIA</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border tarjetaCategoria">
+              <a href="./pages/error404.html" target="_blank" class="nav-link p-5">CAFETERIA</a>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border tarjetaCategoria">
+              <a href="./pages/error404.html" target="_blank" class="nav-link p-5">SERVICIO DE LUNCH</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!-- PRODUCTOS DESTACADOS -->
+ <section class="text-black text-center p-5 productosDestacados fuentetexto">
+      <h2 class="fuentetitulos">Productos Destacados</h2>
+      <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3 g-4 mt-4 text-start">
+        <div class="col">
+          <div class="card alturaDestacados">
+            <img
+              src="./img/Panaderia/panaderia-pan-de-campo.webp"
+              class="card-img-top overflow-hidden "
+              alt="ImagenPanDeCampo"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pan de campo</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card alturaDestacados">
+            <img
+              src="./img/Pasteleria/brownies.webp"
+              class="card-img-top overflow-hidden"
+              alt="ImagenBrownie"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Brownie</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card alturaDestacados">
+            <img
+              src="./img/Pasteleria/torta-nevada.webp"
+              class="card-img-top overflow-hidden"
+              alt="ImagenTortaNevada"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Torta Nevada</h5>
+            </div>
+          </div>
+        </div>
       </div>
-    </main>
+    </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
-      crossorigin="anonymous"
-    ></script>
+<!-- MENSAJE    -->
+  <section class="mensaje fuentetexto">
+    <h1 class="fuentetitulos">Te merecés lo mejor!</h1>
+    <p>Acá no solo amasamos pan: tejemos historias, compartimos momentos y horneamos recuerdos.</p>
+  </section>
 
-    <!-- GALERIA DE IMAGENES -->
+<!-- GALERIA DE IMAGENES -->
+  <div class="seccionGaleria">
     <div class="contenedorGrid">
-      <div class="itemGrid item1"><img src="./img/facturas.jpg" alt="" /></div>
-      <div class="itemGrid item2">
-        <img src="./img/panaderia-cremona-full.jpg" alt="" />
-      </div>
-      <div class="itemGrid item3"><img src="./img/cookies.jpg" alt="" /></div>
-      <div class="itemGrid item4">
-        <img src="./img/serviciodelunch.jpg" alt="" />
-      </div>
-      <div class="itemGrid item5"><img src="./img/lunch.jpg" alt="" /></div>
-      <div class="itemGrid item6">
-        <img src="./img/IMG_20250701_205103.jpg" alt="" />
-      </div>
-      <div class="itemGrid item7">
-        <img src="./img/mini-lemon-pie.jpg" alt="" />
-      </div>
-      <div class="itemGrid item8">
-        <img src="./img/slider-medialunas-congeladas-6.jpg" alt="" />
-      </div>
+        <div Class="itemGrid item1"><img src="./img/Pasteleria/medialunas.webp" alt=""></div>
+        <div Class="itemGrid item2"><img src="./img/Panaderia/panaderia-cremona-full.jpg" alt=""></div>
+        <div Class="itemGrid item3"><img src="./img/Pasteleria/cookies.webp" alt=""></div>
+        <div Class="itemGrid item4"><img src="./img/serviciodelunch.webp" alt=""></div>
+        <div Class="itemGrid item5"><img src="./img/lunch.webp" alt=""></div>
+        <div Class="itemGrid item6"><img src="./img/Cafeteria/IMG_20250701_205103.webp" alt=""></div>
+        <div Class="itemGrid item7"><img src="./img/Pasteleria/mini-lemon-pie.webp" alt=""></div>
+        <div Class="itemGrid item8"><img src="./img/slider-medialunas-congeladas-6.webp" alt=""></div>
     </div>
-  </body>
+    <!-- SCRIPT DE BOOSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
 </html>
