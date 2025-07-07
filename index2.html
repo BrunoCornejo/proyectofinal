@@ -1,147 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap"
+      rel="stylesheet"
+    />
     <title>sobre nosotros</title>
-</head>
-<body>
-  <style>
-    /* SOMOS NOSOTROS */
-    /* link tipografias (google fonts) */
-.fuentetexto {
-  font-family: "Huninn", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-.fuentetitulos {
-  font-family: "Playball", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-nav{
-    background-color:#F3E9DD ;
-}
-.NavLinks a {
-    color: #C18553;
-}
-.inputbuscar {
-  padding: 1.5vh;
-  margin: 1vh;
-  border-radius: 1vh;
-  border: none;
-}
-.botonesnav {
+    <style>
+      /* SOMOS NOSOTROS */
+      /* link tipografias (google fonts) */
+      .fuentetexto {
+        font-family: "Huninn", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .fuentetitulos {
+        font-family: "Playball", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        background-color: #f3e9dd;
+      }
+      .NavLinks a {
+        color: #c18553;
+      }
+      .inputbuscar {
+        padding: 1.5vh;
+        margin: 1vh;
+        border-radius: 1vh;
+        border: none;
+      }
+      .botonesnav {
         text-decoration: none;
-        color:#F3E9DD ;
-        background-color: #C18553 ;
+        color: #f3e9dd;
+        background-color: #c18553;
         padding: 1.5dvh;
         margin: 1dvh;
         border-radius: 1dvh;
-}
-.botonesnav :hover {
-    text-decoration: none;
-    color:#C18553 ;
-    background-color:#F3E9DD;
-    padding: 1.5dvh;
-    margin: 1dvh;
-    border: 5px, solid,#C18553 ;
-    border-radius: 1dvh;
-}
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-    .logo img {
-      max-width: 200px;
-    }
-    .about-us {
-      padding: 40px;
-      background-color: #C18553;
-    }
-    .image-grid {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      background-color: #5E7153;
-      display: flex;
-      justify-content: center;
-    }
-    .image-grid img {
-      border-radius: 200px 200px 200px 200px;
-      overflow: hidden;
-      margin: 20px;
-    }
-  </style>
-</head>
-<body>
+      }
+      .botonesnav :hover {
+        text-decoration: none;
+        color: #c18553;
+        background-color: #f3e9dd;
+        padding: 1.5dvh;
+        margin: 1dvh;
+        border: 5px, solid, #c18553;
+        border-radius: 1dvh;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      .logo img {
+        max-width: 200px;
+      }
+      .about-us {
+        padding: 40px;
+        background-color: #c18553;
+      }
+      .container-fluid {
+        background-color: #5e7153;
+      }
+      /* INFORMACION PERSONAL */
+      .info {
+        background-color: #5e7153;
+        padding: 20px;
+      }
+      .contenedorTarjetas {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+      }
+      .contenedorTarjetas article {
+        border: 2px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+      }
+      .contenedorTarjetas article:hover {
+        background-color: #728965;
+      }
+    </style>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="./img/logo.png" height="30dvh" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 NavLinks">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">PRODUCTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">SUCURSALES</a>
-                        </li>
-                         <li class="nav-item">
-                            <a class="nav-link">CONTACTO</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input id="Buscar" class="form-control inputbuscar" type="search" placeholder="Buscar"/>
-                        <button class="btn botonesnav" type="submit">🔍</button>
-                    </form>
-                    <a href="" class="botonesnav">ACCEDER</a>
-                    <a href="" class="botonesnav">🛒</a>
-                </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo.png" height="30dvh" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 NavLinks">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">PRODUCTOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿QUIENES SOMOS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">SUCURSALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">CONTACTO</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                id="Buscar"
+                class="form-control inputbuscar"
+                type="search"
+                placeholder="Buscar"
+              />
+              <button class="btn botonesnav" type="submit">🔍</button>
+            </form>
+            <a href="" class="botonesnav">ACCEDER</a>
+            <a href="" class="botonesnav">🛒</a>
+          </div>
+        </div>
+      </nav>
     </header>
-  <div class="about-us">
-    <h2>Sobre Nosotros</h2>
-    <p>Moka nació en 2025, en el corazón de Tucumán, como nacen las buenas ideas: entre charlas, café y ganas de crear algo distinto.
+    <div class="about-us">
+      <h2>Sobre Nosotros</h2>
+      <p>
+        Moka nació en 2025, en el corazón de Tucumán, como nacen las buenas
+        ideas: entre charlas, café y ganas de crear algo distinto. Somos cinco
+        personas muy diferentes entre sí, pero unidas por una pasión compartida:
+        hacer que lo cotidiano tenga sabor a especial. Durante meses soñamos con
+        este espacio. Pensamos en cada rincón, elegimos colores, probamos
+        recetas, fallamos, aprendimos y volvimos a empezar. Queríamos algo más
+        que una panadería: queríamos construir un lugar donde los aromas inviten
+        a quedarse y donde cada detalle cuente una historia. En Moka creemos en
+        lo artesanal, en lo visualmente cuidado y en el poder de los pequeños
+        gestos. Amasamos como si fuera para alguien querido, diseñamos como si
+        fuera nuestra casa y atendemos como nos gustaría ser recibidos. No
+        tenemos un gran local ni vitrinas infinitas, pero sí tenemos algo que no
+        falta nunca: ganas. Ganas de crear, de crecer, de mejorar, de
+        sorprenderte. Porque para nosotros, cada día en Moka es una nueva
+        oportunidad de hacer las cosas con amor. Y si llegaste hasta acá, ojalá
+        nos conozcamos pronto. Te estamos esperando con pan calentito,
+        medialunas y café recién hecho. Siempre.
+      </p>
+    </div>
+    <div class="container-fluid">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2">
+        <div class="col">
+          <div class="image-grid img rounded-circle position-relative">
+            <img
+              src="../img/lunch-chips-salame-full.jpg"
+              class="card-img rounded-circle w-100"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex align-items-end justify-content-center position-absolute"
+            >
+              <h5 class="card-title align-bottom">Emmanuel</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image-grid img rounded-circle position-relative">
+            <img
+              src="../img/lunch-chips-salame-full.jpg"
+              class="card-img rounded-circle w-100"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex align-items-end justify-content-center position-absolute"
+            >
+              <h5 class="card-title align-bottom">Sofia</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="image-grid img rounded-circle position-relative">
+            <img
+              src="../img/lunch-chips-salame-full.jpg"
+              class="card-img rounded-circle w-100"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex align-items-end justify-content-center position-absolute"
+            >
+              <h5 class="card-title align-bottom">Julieta</h5>
+            </div>
+          </div>
+        </div>
 
-Somos cinco personas muy diferentes entre sí, pero unidas por una pasión compartida: hacer que lo cotidiano tenga sabor a especial.
-
-Durante meses soñamos con este espacio. Pensamos en cada rincón, elegimos colores, probamos recetas, fallamos, aprendimos y volvimos a empezar. Queríamos algo más que una panadería: queríamos construir un lugar donde los aromas inviten a quedarse y donde cada detalle cuente una historia.
-
-En Moka creemos en lo artesanal, en lo visualmente cuidado y en el poder de los pequeños gestos. Amasamos como si fuera para alguien querido, diseñamos como si fuera nuestra casa y atendemos como nos gustaría ser recibidos.
-
-No tenemos un gran local ni vitrinas infinitas, pero sí tenemos algo que no falta nunca: ganas. Ganas de crear, de crecer, de mejorar, de sorprenderte. Porque para nosotros, cada día en Moka es una nueva oportunidad de hacer las cosas con amor.
-
-Y si llegaste hasta acá, ojalá nos conozcamos pronto. Te estamos esperando con pan calentito, medialunas y café recién hecho. Siempre.</p>
-  </div>
-
-  <div class="image-grid">
-    <img src="./img/IMG_20250701_205103.jpg" alt="Imagen1">
-    <img src="./img/IMG_20250701_205148.jpg" alt="Imagen 2">
-    <img src="./img/IMG_20250701_205213.jpg" alt="Imagen 3">
-    <img src="./img/mini-lemon-pie.jpg" alt="Imagen 4">
-</div>
-  </div>
-</body>
-</html>
-</body>
+        <div class="col">
+          <div class="image-grid img rounded-circle position-relative">
+            <img
+              src="../img/lunch-chips-salame-full.jpg"
+              class="card-img rounded-circle w-100"
+              alt="..."
+            />
+            <div
+              class="card-img-overlay d-flex align-items-end justify-content-center position-absolute"
+            >
+              <h5 class="card-title align-bottom">Bruno</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- INFORMACION PERSONAL -->
+    <section class="info">
+      <div class="contenedorTarjetas">
+        <article>
+          <h5>Nombre</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+          <h5>Nombre</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+        <article>
+          <h5>Nombre</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </article>
+        <article>
+          <h5>Nombre</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </article>
+      </div>
+    </section>
+  </body>
 </html>
