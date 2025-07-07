@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../css/contacto.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,6 +20,70 @@
     />
   </head>
   <body class="fuentetexto">
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img src="./img/logo.png" height="30dvh" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 NavLinks">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" target="_blank" href="#"
+                  >PRODUCTOS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="#">¿QUIENES SOMOS?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./error404.html"
+                  >SUCURSALES</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" target="_blank" href="./contacto.html"
+                  >CONTACTO</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                id="Buscar"
+                class="form-control inputbuscar"
+                type="search"
+                placeholder="Buscar"
+              />
+              <button class="btn botonesnav" type="submit">
+                <img
+                  src="https://img.icons8.com/?size=100&id=131&format=png&color=FFFFFF"
+                  width="20dvh"
+                  alt="carrito de compras"
+                />
+              </button>
+            </form>
+            <a href="./registro.html" class="botonesnav">ACCEDER</a>
+            <a href="./carrito.html" class="botonesnav"
+              ><img
+                src="https://img.icons8.com/?size=100&id=59997&format=png&color=FFFFFF"
+                width="20dvh"
+                alt="carrito de compras"
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <div class="row row-cols-1 row-cols-md-2">
       <div class="col">
         <h6 class="text-center fuentetitulos">Contacto</h6>
@@ -90,7 +155,8 @@
         </section>
       </div>
     </div>
-
+    
+    <!-- SCRIPT DE BOOSTRAP -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
