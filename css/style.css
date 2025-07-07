@@ -72,19 +72,20 @@ nav {
 /* MENSAJE */
 .mensaje {
   background-color: #fff5ee;
-  height: 70dvh;
-  width: 100dvw;
+  height: 100dvh;
+  width: 100%;
 }
 .mensaje h1 {
   color: #895637;
   text-align: center;
-  padding: 75px;
-  font-size: 70px;
+  padding: 80px;
+  font-size: 80px;
 }
 .mensaje p {
   color: #895637;
   text-align: center;
-  font-size: 50px;
+  font-size: 35px;
+  padding-top: auto;
 }
 
 /* GALERIA DE IMAGENES */
@@ -146,3 +147,8 @@ nav {
   grid-column: 3/5;
   grid-row: 3/4;
 }
+@media (min-width: 768px){
+  .mensaje{
+    height: 70dvh
+  }
+};
