@@ -36,10 +36,6 @@
 }
 
 .error {
-  background-image: url(../img/error404.png);
-  background-size: cover;           
-  background-position: center;    
-  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
