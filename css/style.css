@@ -267,6 +267,10 @@ footer {
   background-color: #895637;
   color: #F3E9DD;
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 /* MEDIA */
 @media (min-width: 320px){
   .mensaje{
