@@ -16,18 +16,40 @@
   font-style: normal;
 }
 
+.boton {
+  display: inline-block;
+  background-color: #c18553;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border-radius: 10px;
+  margin-bottom: 5rem;
+  padding: 1rem 2rem;
+  color: white;
+  font-size: 1.25rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.boton:hover {
+  background-color: #895637;
+}
+
 .error {
   background-image: url(../img/error404.png);
-  background-size: cover;
-  background-position: center;
+  background-size: cover;           
+  background-position: center;    
   background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  height: auto;
-  min-height: 100dvh;
-  width: auto;
+  min-height: 100vh;               
+  width: 100%;
+  padding: 1dvh;
+  background-color: #fff5ec;      
+  text-align: center;
+  overflow: hidden;                 
 }
 
 .error h2 {
@@ -37,27 +59,17 @@
   text-align: center;
 }
 
-.boton {
-  background-color: #c18553;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s ease;
-  border-radius: 10px;
-  margin-bottom: 5rem;
-  padding: 1rem;
-
-  a {
-    color: white;
-    font-size: 1.25rem;
-    text-decoration: none;
+@media (min-width: 768px) {
+  .error {
+    height: 100dvh;
+    
   }
 }
 
-.boton:hover {
-  background-color: #895637;
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow-x: hidden;
 }
-@media (min-width: 768px){
-  .error{
-    height: 70dvh
-  }
-};
