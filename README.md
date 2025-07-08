@@ -1,5 +1,7 @@
 🥐 MOKA – E-commerce para Panadería Artesanal
 ![logo](https://github.com/user-attachments/assets/88c306d3-79cc-4b04-8a25-2bbeb8df7f62)
+![image](https://github.com/user-attachments/assets/efe5b24a-df1a-4935-b350-8728a762cc5a)
+
 
 📃 Descripción del Proyecto
 
