@@ -1,18 +1,52 @@
-*MOKA*
+🥐 MOKA – E-commerce para Panadería Artesanal
+![logo](https://github.com/user-attachments/assets/88c306d3-79cc-4b04-8a25-2bbeb8df7f62)
 
-  Panadería Moka es un proyecto de e-commerce desarrollado en equipo por cuatro integrantes, con el objetivo de ofrecer una experiencia cálida, moderna y funcional para una panadería con identidad propia. El sitio incluye distintas secciones dedicadas a panadería, pastelería, cafetería y servicios de lunch. Además, cuenta con un carrito de compras, formularios de contacto y registro validados, y páginas de acceso e inicio de sesión.
+📃 Descripción del Proyecto
 
-  Durante el desarrollo, los roles del equipo fueron divididos de acuerdo a las habilidades de cada integrante. La diseñadora del grupo se encargó de definir la identidad visual del sitio, eligiendo la tipografía, la paleta de colores y las imágenes que mejor representaran la calidez y estilo artesanal de Moka. Por otro lado, el equipo de desarrollo trabajó en la estructura del sitio, la programación de funcionalidades y la correcta validación de formularios.
+**Moka** es un proyecto de e-commerce desarrollado en equipo, enfocado en ofrecer una experiencia cálida, moderna y funcional para una panadería con identidad propia. La aplicación incluye secciones dedicadas a:
 
-  Se utilizaron herramientas como Trello para la organización de tareas, donde se mantuvo un tablero grupal activo. Las reuniones (daily meetings) se realizaron cada dos días aproximadamente, permitiendo un seguimiento constante del progreso y una comunicación fluida entre los miembros del equipo. Se priorizó tener un código limpio, una estructura ordenada y un diseño responsive, adaptado a distintos dispositivos. Finalmente, el proyecto fue desplegado en la plataforma Netlify, logrando un resultado funcional y visualmente atractivo.
+* 🥖 Panadería
+* 🍰 Pastelería
+* ☕ Cafetería
+* 🧁 Servicios de Lunch
 
-*TECNOLOGIAS UTILIZADAS*
-  HTML
-  CSS
-  BOOTSTRAP
+Además, cuenta con:
 
-*AUTORES*
-  Sofia Duran
-  Bruno Cornejo
-  Julieta Santillan
-  Emanuel Galvan 
+* 🛒 **Carrito de compras**
+* 📋 **Formularios de contacto y registro validados**
+* 🔐 **Páginas de acceso e inicio de sesión**
+
+El objetivo fue crear una plataforma accesible y atractiva que represente fielmente el estilo artesanal de Moka, manteniendo una experiencia de usuario clara, intuitiva y responsiva.
+
+👥 Organización del Equipo
+
+Durante el desarrollo, se asignaron roles de acuerdo con las habilidades de cada integrante:
+
+ 🎨 **Diseño visual:**
+  La diseñadora del grupo se encargó de definir la **identidad visual**, seleccionando **tipografías**, **paleta de colores** e **imágenes** que reflejaran la calidez y el estilo artesanal de la marca.
+
+💻 **Desarrollo:**
+  El equipo de desarrollo trabajó en la **estructura del sitio**, la **programación de funcionalidades** y la **validación de formularios**.
+
+📌 **Gestión del proyecto:**
+  Se utilizó **Trello** como herramienta de organización, manteniendo un tablero grupal activo.
+  Las reuniones de equipo (“**daily meetings**”) se realizaron cada dos días para asegurar una comunicación constante y fluida.
+
+Se priorizó un **código limpio**, **estructura ordenada** y **diseño responsive**, garantizando compatibilidad con distintos dispositivos.
+
+✅ Tecnologías Utilizadas
+
+* HTML
+* CSS
+* Bootstrap
+
+🌐 Sitio Web
+
+> 💻 **Desplegado en Netlify**
+
+👣 Autores
+
+* **Sofía Durán** https://github.com/Sodurann
+* **Bruno Cornejo** https://github.com/BrunoCornejo
+* **Julieta Santillán** https://github.com/JuliSantillan02
+* **Emanuel Galván** https://github.com/Emmanuel-Galvan
