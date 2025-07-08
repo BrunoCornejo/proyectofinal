@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--FAVICON-->
     <link rel="icon" href="./img/favicon.png">
     <!-- BOOSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/registro.css">
+    <link rel="stylesheet" href="../css/contacto.css">
     <!-- FUENTES GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Huninn&family=Playball&display=swap" rel="stylesheet">
-    <title>Registro</title>
-</head>
-<body>
-  <header>
+    <title>Contacto</title>
+  </head>
+  <body class="fuentetexto">
+    <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand"  href="../index.html"
-            ><img src="../img/logo.png" height="30dvh" alt="Logo"
+          <a class="navbar-brand" target="_blank" href="../index.html"
+            ><img src="../img/logo.png" height="30dvh" alt=""
           /></a>
           <button
             class="navbar-toggler"
@@ -37,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 NavLinks">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page"  href="./error404.html"
+                <a class="nav-link" aria-current="page" href="./error404.html"
                   >PRODUCTOS</a
                 >
               </li>
@@ -47,10 +47,10 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="./sobreNosotros.html">SOBRE NOSOTROS</a>
+                <a class="nav-link" href="./sobreNosotros.html">SOBRE NOSOTROS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link"  href="./contacto.html"
+                <a class="nav-link" href="./contacto.html"
                   >CONTACTO</a
                 >
               </li>
@@ -81,52 +81,79 @@
         </div>
       </nav>
     </header>
-<main>
-  <div class="container hidden">
-    <div class="side-panel login-again">
-      <h3>¿Ya tienes cuenta?</h3>
-      <p>Inicia sesión y disfruta de nuestros servicios.</p>
-      <a href="./iniciarsesion.html"><button class="btn-outline">INICIAR SESIÓN</button></a>
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Contacto</h6>
+        <section>
+          <form class="formulario">
+            <label for="nombre">Nombre y Apellido</label>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Ej: Jorge Perez"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Ej: jorgeperez@gmail.com"
+              required
+              minlength="3"
+              maxlength="50"
+            />
+
+            <label for="telefono">Teléfono</label>
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Ej: 3812356479"
+              required
+              minlength="10"
+              maxlength="10"
+            />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              placeholder="Ingrese su consulta"
+              required
+            ></textarea>
+            <section class="boton">
+              <input type="submit" value="Enviar" />
+            </section>
+          </form>
+        </section>
+      </div>
+
+      <div class="col">
+        <h6 class="text-center fuentetitulos">Ubicación</h6>
+        <section class="ubicacion">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.1222895833585!2d-65.2094923247784!3d-26.83606247669291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c0ef228d361%3A0x34b3103d48727d5c!2sGral.%20Jos%C3%A9%20Mar%C3%ADa%20Paz%20567%2C%20T4000BLK%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1sen!2sar!4v1751581725163!5m2!1sen!2sar"
+            class="my-5"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </section>
+      </div>
     </div>
-
-    <div class="form-container register-form">
-      <form>
-        <h2>Crear Cuenta</h2>
-        <label for="name">Nombre Completo</label>
-        <input type="text" id="name" placeholder="Ej: Jorge Daniel Perez" required />
-        <label for="text">Nombre de usuario</label>
-        <input type="text" id="nombre de usuario" placeholder="Ej: Jorge Perez"required/>
-        
-        <label for="reg-email">Correo Electrónico</label>
-        <input type="email" id="reg-email" placeholder="Ej: jorgeperez@gmail.com" required />
-        
-        <label for="phone">Número de Teléfono</label>
-        <input type="text" id="phone" placeholder="Ej: 3812356479" required />
-        <label for="123">Codigo postal</label>
-        <input type="text" id="codigo postal" placeholder="Ej: 4000" required/>
-        <label for="text">Domicilio</label>
-        <input type="text" id="domicilio" placeholder="Ej: General Paz 567"required/>
-        
-        <label for="reg-password">Contraseña (6 caracteres)</label>
-        <div class="password-container">
-          <input type="password" id="reg-password" placeholder="Ingresa tu contraseña" required />
-          <span class="eye-icon">👁️</span>
-        </div>
-
-        <label class="terms">
-          <input type="checkbox" required /> Aceptas nuestros Términos de Uso.
-        </label>
-
-        <button type="submit" class="btn-login">CREAR CUENTA</button>
-      </form>
-    </div>
-  </div>
-  </main>
-  <!-- FOOTER  -->
+    <!-- FOOTER  -->
      <footer class="fuentetexto">
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 justify-content-center">
             <div class="col d-flex flex-column align-items-center">
-                <div class="d-flex row justify-content-center ">
+                <div class="d-flex row justify-content-center p-2">
                     <img class="img-footer" src="../img/logo.png" alt="Logo">
                     <div class="footer-icons">
                         <a class="linkstyle" href="./error404.html"><img class="icons-footer" src="https://img.icons8.com/?size=100&id=YMLqO4uWfSn5&format=png&color=895637" alt="Logo Instagram">Instagram</a>
@@ -158,9 +185,15 @@
                 </div>
             </div>
         </div>
-        <div class="derechos text-center">
+        <div class="derechos text-center p-3">
             <p>© 2025 Todos los derechos reservados | Moka Panaderia</p>
         </div>
     </footer>
-</body>
+    <!-- SCRIPT DE BOOSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

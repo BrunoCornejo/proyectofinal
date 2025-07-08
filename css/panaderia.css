@@ -1,0 +1,69 @@
+/* link tipografias (google fonts) */
+.fuentetexto {
+  font-family: "Huninn", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fuentetitulos {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#F3E9DD ;
+}
+.NavLinks a {
+    color: #C18553;
+}
+.inputbuscar {
+  padding: 1.5vh;
+  margin: 1vh;
+  border-radius: 1vh;
+  border: none;
+}
+.botonesnav {
+    text-decoration: none;
+    color:#F3E9DD ;
+    background-color: #C18553 ;
+    padding: 1.5dvh;
+    margin: 1dvh;
+    border-radius: 1dvh;
+}
+.botonesnav:hover {
+    color:#C18553 ;
+    background-color:#F3E9DD;
+    border: 2px solid #C18553;
+}
+
+.tituloseccion {
+    color: #F3E9DD;
+    font-size: 10dvh;
+    padding-top: 5dvh;
+}
+.seccionpasteleria {
+    background-image: url(../img/seccion/panes.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 50dvh;   
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+.cardsection {
+    display: flex;
+    justify-content: center;
+}
+.card img {
+    height: 45vh;
+}
+.subtitulos {
+    color: #C18553;
+    font-size: 10dvh;
+}
