@@ -19,7 +19,7 @@ p, h5, h4, h3, h2, h1{
   margin: 0;
   box-sizing: border-box;
 }
-/* NAVBAR */
+/* HEADER */
 nav {
   background-color: #f3e9dd;
 }
@@ -252,7 +252,10 @@ footer {
 }
 .linkstyle {
   color: #895637;
+  background-color: #F3E9DD;
   text-decoration: none;
+  transition: color 0.3s ease ;
+  transition: background-color 0.3s ease; 
 }
 .linkstyle:hover {
   padding: 1dvh;
