@@ -121,3 +121,14 @@ input[type="text"] {
   align-items: center;
   gap: .5rem;
 }
+footer {
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .hidden .side-panel {
+    display: none ;
+  }
+  .form-container {
+    width: 100dvw;
+  }
+};
