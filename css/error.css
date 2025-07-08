@@ -25,9 +25,9 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  height: 100dvh;
+  height: auto;
   min-height: 100dvh;
-  width: 100dvw;
+  width: auto;
 }
 
 .error h2 {
@@ -56,3 +56,8 @@
 .boton:hover {
   background-color: #895637;
 }
+@media (min-width: 768px){
+  .error{
+    height: 70dvh
+  }
+};
