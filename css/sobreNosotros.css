@@ -1,0 +1,65 @@
+    /* SOMOS NOSOTROS */
+    /* link tipografias (google fonts) */
+    .fuentetexto {
+        font-family: "Huninn", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .fuentetitulos {
+        font-family: "Playball", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo img {
+        max-width: 200px;
+    }
+
+    .about-us {
+        padding: 40px;
+        background-color: #c18553;
+    }
+
+    .miContainer {
+        background-color: #5e7153;
+    }
+
+    /* INFORMACION PERSONAL */
+    .info {
+        background-color: #5e7153;
+        padding: 20px;
+    }
+
+    .contenedorTarjetas {
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .contenedorTarjetas article {
+        border: 2px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .contenedorTarjetas article:hover {
+        background-color: #728965;
+    }

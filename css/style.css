@@ -1,3 +1,7 @@
+p, h5, h4, h3, h2, h1{
+  cursor: default;
+}
+
 /* TIPOGRAFIAS (GOOGLE FONTS) */
 .fuentetexto {
   font-family: "Huninn", sans-serif;
@@ -75,10 +79,13 @@ nav {
         transition: transform 0.2s ease;
       }
       .itemGrid {
-        border-radius: 10px; overflow: hidden;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: all .5s ease;
         img{
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
       .itemGrid:hover{
@@ -167,9 +174,11 @@ nav {
 .itemGrid {
   border-radius: 10px;
   overflow: hidden;
+  transition: all .2s ease;
   img {
     width: 100%;
     height: 100%;
+    object-fit: cover;
   }
 }
 .itemGrid:hover {

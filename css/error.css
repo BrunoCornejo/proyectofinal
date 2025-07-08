@@ -1,45 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .fuentetexto {
   font-family: "Huninn", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .fuentetitulos {
   font-family: "Playball", cursive;
   font-weight: 400;
   font-style: normal;
 }
+
 .error {
   background-image: url(../img/error404.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   height: 100dvh;
+  min-height: 100dvh;
   width: 100dvw;
 }
+
 .error h2 {
+  font-size: 2rem;
+  margin-top: 5rem;
   color: #895637;
   text-align: center;
-  margin-top: 100px;
 }
-.boton input[type="submit"] {
+
+.boton {
   background-color: #c18553;
-  color: white;
   border: none;
   cursor: pointer;
   transition: 0.3s ease;
-  width: 100px;
-  height: 50px;
   border-radius: 10px;
+  margin-bottom: 5rem;
+  padding: 1rem;
+
+  a {
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
+  }
 }
-.boton input[type="submit"]:hover {
+
+.boton:hover {
   background-color: #895637;
-}
-.boton {
-  width: 100vw;
-  height: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  margin-bottom: 120px;
-  
 }
