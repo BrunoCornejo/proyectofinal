@@ -14,118 +14,34 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-/* HEADER */
-    nav {
-  background-color: #f3e9dd;
-}
-.NavLinks a {
-  color: #c18553;
-}
-.inputbuscar {
-  padding: 1.5vh;
-  margin: 1vh;
-  border-radius: 1vh;
-  border: none;
-}
-.botonesnav {
-  text-decoration: none;
-  color: #f3e9dd;
-  background-color: #c18553;
-  padding: 1.5dvh;
-  margin: 1dvh;
-  border-radius: 1dvh;
-}
-.botonesnav:hover {
-  color: #c18553;
-  background-color: #f3e9dd;
-  border: 2px solid #c18553;
+body {
+  overflow-x: hidden;
 }
 /* SOBRE NOSOTROS */
-    .logo img {
-        max-width: 200px;
-    }
-
-    .about-us {
-        padding: 40px;
-        background-color: #c18553;
-    }
-
-    .miContainer {
-        background-color: #5e7153;
-    }
-
-    /* INFORMACION PERSONAL */
-    .info {
-        background-color: #5e7153;
-        padding: 20px;
-    }
-
-    .contenedorTarjetas {
-        margin-top: 20px;
-        display: flex;
-        gap: 20px;
-    }
-
-    .contenedorTarjetas article {
-        border: 2px solid black;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .contenedorTarjetas article:hover {
-        background-color: #728965;
-    }
-
-/* FOOTER */
-
-    footer {
-  background-color: #F3E9DD;
-  color: #895637;
-  text-decoration: none;
+.titulo {
+  color: #F3E9DD;
+  font-size: 20dvh;
 }
-.titulosFooter {
-  color: #895637;
-  font-size: 7dvh;
+.about-us {
+  padding: 40px;
+  background-color: #c18553;
+  color: #F3E9DD;
 }
-.img-footer {
- width: 35dvh;
-}
-.footer-icons {
+.Nosotros {
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  gap: 1rem;
-  padding: 1rem 0;
-}
-.icons-footer {
-  width: 32px;
-  height: 32px;
-  object-fit: contain;
-  transition: transform 0.2s ease;
-}
-.linkProductos {
-  padding-left: 3dvh;
-}
-.linkstyle {
-  color: #895637;
-  background-color: #F3E9DD;
-  text-decoration: none;
-  transition: color 0.3s ease ;
-  transition: background-color 0.3s ease; 
-}
-.linkstyle:hover {
-  padding: 1dvh;
-  background-color:#C18553;
+  align-items: center;
+  justify-content: center;
+  padding: 2dvh;
   border-radius: 1dvh;
-  color:#F3E9DD ;
-}
-.derechos {
-  background-color: #895637;
   color: #F3E9DD;
+  transition: all 0.3s ease;
+}
+.Nosotros:hover {
+  background-color: #895637;
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.Nosotros img {
+    display: block;
 }

@@ -10,6 +10,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
   <!-- CSS -->
+   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/sobreNosotros.css">
   <!-- FUENTES GOOGLE FONTS -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,7 @@
   <title>Sobre Nosotros</title>
 </head>
 
-<body>
+<body class="fuentetexto">
 <!-- Header -->
   <header>
         <nav class="navbar navbar-expand-lg">
@@ -52,9 +53,9 @@
             </div>
         </nav>
     </header>
-
-  <div class="about-us">
-    <h2>Sobre Nosotros</h2>
+<main class="about-us">
+  <div class="container">
+    <h2 class="fuentetitulos titulo">Sobre Nosotros</h2>
     <p>
       Moka nació en 2025, en el corazón de Tucumán, como nacen las buenas
       ideas: entre charlas, café y ganas de crear algo distinto. Somos cinco
@@ -75,71 +76,46 @@
       medialunas y café recién hecho. Siempre.
     </p>
   </div>
-  <div class="container-fluid miContainer">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2">
-      <div class="col">
-        <div class="image-grid img rounded-circle position-relative">
-          <img src="../img/lunch-chips-salame-full.webp" class="card-img rounded-circle w-100" alt="..." />
-          <div class="card-img-overlay d-flex align-items-end justify-content-center position-absolute">
-            <h5 class="card-title align-bottom">Emmanuel</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="image-grid img rounded-circle position-relative">
-          <img src="../img/lunch-chips-salame-full.webp" class="card-img rounded-circle w-100" alt="..." />
-          <div class="card-img-overlay d-flex align-items-end justify-content-center position-absolute">
-            <h5 class="card-title align-bottom">Sofia</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="image-grid img rounded-circle position-relative">
-          <img src="../img/lunch-chips-salame-full.webp" class="card-img rounded-circle w-100" alt="..." />
-          <div class="card-img-overlay d-flex align-items-end justify-content-center position-absolute">
-            <h5 class="card-title align-bottom">Julieta</h5>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="image-grid img rounded-circle position-relative">
-          <img src="../img/lunch-chips-salame-full.webp" class="card-img rounded-circle w-100" alt="..." />
-          <div class="card-img-overlay d-flex align-items-end justify-content-center position-absolute">
-            <h5 class="card-title align-bottom">Bruno</h5>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <!-- INFORMACION PERSONAL -->
-  <section class="info">
-    <div class="contenedorTarjetas">
-      <article>
-        <h5>Nombre</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </article>
-      <article>
-        <h5>Nombre</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </article>
-      <article>
-        <h5>Nombre</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      </article>
-      <article>
-        <h5>Nombre</h5>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-      </article>
+  <section>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+      <div class="col">
+        <div class="Nosotros">
+          <img src="../img/SobreNosotros/Julieta.jpeg" class="card-img rounded-circle p-2 " alt="Foto Bruno" />
+          <h5>Julieta Santillán</h5>
+          <p>Tengo 23 años y soy profesora de Matemáticas. Actualmente compagino mi trabajo con el desafío de formarme como desarrolladora Full Stack en Rolling Code School. </p>
+        </div>        
+      </div>
+      <div class="col">
+        <div class="Nosotros">
+          <img src="../img/SobreNosotros/Sofia.jpeg" class="card-img rounded-circle p-2" alt="Foto Sofia" />
+          <h5>Sofía Duran</h5>
+          <p>Tengo 19 años y actualmente estoy cursando la carrera de Programador Universitario (UNT). Al mismo tiempo, me estoy formando como desarrolladora Full Stack en Rolling Code School.</p>
+        </div>        
+      </div>
+      <div class="col">
+        <div class="Nosotros">
+          <img src="../img/SobreNosotros/Bruno.jpeg" class="card-img rounded-circle p-2" alt="Foto Bruno" />
+          <h5>Bruno Cornejo</h5>
+          <p>Tengo 25 años y soy egresado de la carrera de Programación (UTN). Actualmente me encuentro perfeccionando mis habilidades como desarrollador Full Stack en Rolling Code School.</p>
+        </div>        
+      </div>
+      <div class="col">
+        <div class="Nosotros">
+          <img src="../img/lunch-chips-salame-full.webp" class="card-img rounded-circle p-2" alt="Foto Emmanuel" />
+          <h5>Emmanuel Galvan</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>        
+      </div>
     </div>
   </section>
-
+</main>
     <!-- FOOTER  -->
      <footer class="fuentetexto">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2 justify-content-center">
             <div class="col d-flex flex-column align-items-center">
                 <div class="d-flex row justify-content-center p-2">
-                    <img class="img-footer" src="./img/logo.png" alt="">
+                    <img class="img-footer" src="../img/logo.png" alt="">
                     <div class="footer-icons">
                         <a class="linkstyle" href="./error404.html"><img class="icons-footer" src="https://img.icons8.com/?size=100&id=YMLqO4uWfSn5&format=png&color=895637" alt="Icono Instagram">Instagram</a>
                         <a class="linkstyle" href="./error404.html"><img class="icons-footer" src="https://img.icons8.com/?size=100&id=434&format=png&color=895637" alt="Icono Facebook">Facebook</a>
