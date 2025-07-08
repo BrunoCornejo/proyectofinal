@@ -12,12 +12,17 @@
 body.fuentetexto{
   background: #f3e9dd;
 }
+
 body h6 {
   padding-top: 5px;
   text-align: center;
   font-size: 10dvh;
   margin: auto;
   color: #895637;
+}
+html, body {
+  overflow-x: hidden;
+  width: 100%;
 }
 section {
   display: flex;

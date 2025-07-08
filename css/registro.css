@@ -18,6 +18,10 @@ main {
 header{
   width: 100%;
 }
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
 .container {
   display: flex;
   width: 800px;
